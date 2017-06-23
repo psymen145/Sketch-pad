@@ -1,0 +1,47 @@
+html {
+	margin: 0;
+	font-family: 'Rock Salt', cursive;
+}
+
+.wrapper-header{
+	width: 100%;
+}
+
+.wrapper-header h {
+	font-size: 30px;
+	text-align:center;
+	display:block;
+}
+
+.nav-main {
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+
+.buttons{
+	margin:10px 0px;
+	text-align:center;
+}
+
+#start, #clear {
+	padding: 10px;
+}
+
+#canvas{
+	width: 700px;
+	height: 700px;
+	border: 2px solid lightgray;
+	background-color:white;
+	margin: 10px auto;
+}
+
+.pixel {
+	float: left;
+	background-color: #ECEBEB;
+	border-radius:60%;
+}
+
+.highlightButton {
+	background-color: lightgray;
+}
